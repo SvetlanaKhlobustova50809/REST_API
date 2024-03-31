@@ -18,6 +18,13 @@ docker logs <CONTAINER ID OR CONTAINER NAME>
 - выполнить установку следующих библиотек: flask, Pyjwt, werkzeug, validate_email_address, sqlalchemy
 - запустить файл pyDB.py
 
-Тестирование POST запросов выполняла в Postman
+# Тестирование POST запросов выполняла в Postman
+json можно прописать, например, такой:
+```
+{
+    "email": "sokol@gmail.com",
+    "password": "123&^_TRq"
+}
+```
 
   
