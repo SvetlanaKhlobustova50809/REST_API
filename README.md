@@ -16,6 +16,6 @@ docker logs <CONTAINER ID OR CONTAINER NAME>
 #Если по какой-то причине не запускается Docker контейнер:
 - выполнить установку следующих библиотек: flask, Pyjwt, werkzeug, validate_email_address, sqlalchemy
 
-Тестирование POST запросов выполняла в PostMan
+Тестирование POST запросов выполняла в Postman
 
   
