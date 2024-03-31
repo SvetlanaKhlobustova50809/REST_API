@@ -4,6 +4,7 @@
 - Изменить переменную USERNAME и указать localhost в файле pyDB.py
 
 # При запуске Docker контейнера:
+- написать свои значения в файле docker_compose.yml для переменных POSTGRES_DB, POSTGRES_PASSWORD
 - прописать следующие команды, указав нужный порт
 ```
 docker build -t flask-rest-api .
