@@ -13,7 +13,7 @@ docker run -d -p 5000:5000 flask-rest-api
 ```
 docker logs <CONTAINER ID OR CONTAINER NAME>
 ```
-#Если по какой-то причине не запускается Docker контейнер:
+# Если по какой-то причине не запускается Docker контейнер:
 - выполнить установку следующих библиотек: flask, Pyjwt, werkzeug, validate_email_address, sqlalchemy
 - запустить файл pyDB.py
 
